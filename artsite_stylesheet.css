@@ -6,7 +6,7 @@
 }*/
 @font-face{
     font-family: "myfont";
-    src: url(animprojects/illustrator/source-sans-pro/SourceSansPro-Bold.otf);
+    src: url(ASSETS/SourceSansPro-Bold.otf);
 }
 body{
     display: block;
