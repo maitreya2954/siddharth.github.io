@@ -289,6 +289,22 @@ body{
     border-radius: 5px;
 }
 
+@media all and (max-width: 500px){
+    .inputFields{
+        width: 250px;
+    }
+    #Gallery img{
+        width: 200px;
+        border-radius: 100px;
+        border: solid whitesmoke 8px;
+    }
+    #Gallery img:hover{
+        width: 210px;
+    }
+    
+    
+}
+
 /****************************VIDEO BACKGROUND********************************/
 #videoBack{
     display: inline;
