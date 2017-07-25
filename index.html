@@ -36,7 +36,7 @@
             </div>
         </nav>
         <div id="Home">
-            <div class="carousel slide" data-ride="carousel" id="solid_part" data-interval="1500" data-pause="false" onmouseover="adjustHeight()">
+            <div class="carousel slide" data-ride="carousel" id="solid_part" data-interval="2000" data-pause="false">
                 <ol class="carousel-indicators" style="list-style-type: none">
                     <li data-target="#solid_part" data-slide-to="0" class="active"></li>
                     <li data-target="#solid_part" data-slide-to="1"></li>
@@ -154,6 +154,7 @@
                 document.getElementById("C_and_O").style.height = windowHeight+'px';
                 document.getElementById("videoBack").style.height = windowHeight+'px';
             }
+            $("#Home").one("onmouseover",adjustHeight());
             $(document).ready(function(){
                 $("#Gallery").on('shown.bs.collapse',function(){
                     $("#more_div").hide();
