@@ -303,9 +303,6 @@ body{
         border-radius: 100px;
         border: solid whitesmoke 8px;
     }
-    #Gallery img:hover{
-        width: 210px;
-    }
     .fa {
       padding: 10px;
       font-size: 15px;

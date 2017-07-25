@@ -6,10 +6,10 @@
         <title>My Artsite</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="mobile_stylesheet.css">
-        <link rel="stylesheet" type="text/css" href="artsite_stylesheet.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="artsite_stylesheet.css">
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <video poster="ASSETS/background.jpg"  loop autoplay id="videoBack">
@@ -154,16 +154,12 @@
                 document.getElementById("C_and_O").style.height = windowHeight+'px';
                 document.getElementById("videoBack").style.height = windowHeight+'px';
             }
-            function move_imageLink()
-               {
-                   document.getElementsByClassName("imageLink").style.top="0px";
-               }
             $(document).ready(function(){
                 $("#Gallery").on('shown.bs.collapse',function(){
                     $("#more_div").hide();
                 });
             });
-            
+            $(document).on("scrollstart",adjustHeight());
         </script>    
     </body>
 </html>
