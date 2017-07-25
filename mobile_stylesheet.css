@@ -1,0 +1,5 @@
+@media all and (max-width: 500px){
+    #About,#Gallery,#C_and_O{
+        height: 580px;
+    }
+}
