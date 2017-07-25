@@ -75,6 +75,10 @@ body{
     background-color: transparent;
 }
 
+#propic{
+    width: 250px;
+    border-radius: 50%;
+}
 
 #Gallery{
     display: block;
@@ -301,8 +305,16 @@ body{
     #Gallery img:hover{
         width: 210px;
     }
-    
-    
+    .fa {
+      padding: 10px;
+      font-size: 15px;
+      width: 35px;
+      margin: 2px 2px;
+      border-radius: 50%;
+    }
+    #propic{
+        width: 100px;
+    }
 }
 
 /****************************VIDEO BACKGROUND********************************/
